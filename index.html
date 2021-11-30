@@ -37,7 +37,7 @@ https://templatemo.com/tm-531-reflux
           <i class="fa fa-times" id="menu-close"></i>
           <div class="container">
             <div class="image">
-              <a href="#"><img src="assets/images/FotoProfilo.jpeg" alt="Immagine profilo" /></a>
+              <a href="#"><img src="assets/images/FotoProfilo.jpeg" alt="FotoProfilo" /></a>
             </div>
             <div class="author-content">
               <h4>Pierpaolo Chirillo</h4>
@@ -412,17 +412,25 @@ https://templatemo.com/tm-531-reflux
             <h2>Contact Me</h2>
             <div class="line-dec"></div>
             <span
-              >Per contattarmi puoi compilare il form oppure contattarmi sui social</span>
+              >Per contattarmi puoi compilare il form oppure contattarmi sui social nel menù di navigazione</span>
           </div>
           
           <form
   action="https://formspree.io/f/xyyognqv"
   method="POST"
 >
+<label>
+  Nome e Cognome:
+  <textarea name="nome e cognome"></textarea>
+  </label>
   <label>
     Tua email:
-    <input type="email" name="_replyto">
+    <input type="email" name="_replyto"></textarea>
   </label>
+  <label>
+    Oggetto:
+    <textarea name="oggetto"></textarea>
+    </label>
   <label>
     Tuo messaggio:
     <textarea name="message"></textarea>
@@ -431,7 +439,9 @@ https://templatemo.com/tm-531-reflux
   <button type="submit">Send</button>
 </form>
           
-          <!--            <input name="Email" id="email" type="email">
+            
+          <!---
+                      <input name="Email" id="email" type="email">
             <button type="submit">Submit</button>
           </form>
           <div class="row">
@@ -490,7 +500,7 @@ https://templatemo.com/tm-531-reflux
                     <div class="col-md-12">
                       <fieldset>
                         <button type="submit" id="form-submit" class="button">
-                          Send Message
+                          <form action="https://formspree.io/f/xyyognqv" method="POST">Invia messaggio
                         </button>
                       </fieldset>
                     </div>
@@ -502,7 +512,8 @@ https://templatemo.com/tm-531-reflux
         </div>
       </section>
     </div>
-  -->
+  </form>
+  --->
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
